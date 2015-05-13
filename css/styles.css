@@ -1,0 +1,154 @@
+html, body {
+    margin:0;
+    padding:0;
+    height:100%;
+}
+
+body{
+    background-color: #ffffff;
+
+
+}
+
+#header{
+    color: darkblue;
+    alignment: center;
+    margin: auto;
+
+}
+
+#header h1{
+    text-align: center;
+}
+
+#menu{
+    width: 500px;
+margin: auto;
+
+}
+
+#container_menu{
+    z-index: 9999;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: #080808;
+}
+
+#menu-nav{
+    height: 42px;
+    text-align: center;
+}
+#menu-nav ul {
+    list-style: none;
+    color: #ffffff;
+
+}
+#menu-nav ul li{
+    float: left;
+    margin-top: 6px;
+    padding: 6px;
+    border-right: 1px solid #ffffff;
+    color: #ffffff;
+
+
+}
+
+#menu-nav ul li a{
+    color: #ffffff;
+
+
+}
+#menu-nav ul li a:hover{
+    text-decoration: underline;
+    color: red;
+
+}
+
+
+
+.hideable {
+    display: none;
+}
+
+
+#contact label{
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+}
+#contact_submit{
+}
+#contact div{
+    margin-top: 1em;
+}
+textarea{
+    vertical-align: top;
+    height: 5em;
+}
+
+.error{    padding-left: 100px;
+
+    display: none;
+    margin-left: 10px;
+}
+
+.error_show{
+    color: red;
+    margin-left: 10px;
+}
+
+input.invalid, textarea.invalid{
+    border: 2px solid red;
+}
+
+input.valid, textarea.valid{
+    border: 2px solid green;
+}
+
+#container {
+    min-height:100%;
+    position:relative;
+
+}
+
+.center-block{
+    width: 900px;
+    margin: 0 auto;
+}
+
+#footer{
+    width:100%;
+    height:50px;
+    position:absolute;
+    bottom:0;
+    left:0;
+    background: #080808;
+    border: transparent;
+
+}
+#footer p {
+    list-style: none;
+    color: #ffffff;
+    text-align: center;
+}
+
+#footer h4{
+    list-style: none;
+    color: #ffffff;
+    text-align: center;
+}
+
+.share {
+    float: right;
+    text-align: center;
+    line-height: 40px;
+    background: #eeeeee;
+    padding: 0 20px;
+    border-radius: 3px;
+    border-bottom: 2px solid #dddddd; }
+/* line 123, /opt/apps/learnxinyminutes/source/css/screen.css.sass */
+.share .sharemsg {
+    font-weight: bold;
+    display: block; }
